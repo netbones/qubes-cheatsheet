@@ -546,8 +546,8 @@ systemctl restart udev
 ### Using the Librem Key with Heads
 
 TODO: This section will be incomplete until we finalize the initial Heads UI. In the mean time
-this blog post describes how the Librem Key integrates with Heads The Librem Key Makes
-Tamper Detection Easy
+this blog post describes how the Librem Key integrates with Heads 
+[The Librem Key Makes Tamper Detection Easy](http://web.archive.org/web/20240927115201/https://puri.sm/posts/the-librem-key-makes-tamper-detection-easy/)
 
 ### Technical Specs
 • Key slots: Three key slots supporting RSA 2048-4096 bit and ECC 256-512 bit
@@ -570,8 +570,7 @@ brainpoolP512r1
 • [Librem Key Product Page](http://web.archive.org/web/20240927115201/https://puri.sm/products/librem-key) – where to go to order the Librem Key
 • [Introducing the Librem Key](http://web.archive.org/web/20240927115201/https://puri.sm/posts/introducing-the-librem-key/) – a blog post that provides an easy-to-understand overview of
 the Librem Key
-• [The Librem Key Makes Tamper Detection Easy](http://web.archive.org/web/20240927115201/https://puri.sm/posts/the-librem-key-makes-tamper-detection-easy/) – a blog post that describes how the
-Librem Key integrates with Heads
+• [The Librem Key Makes Tamper Detection Easy](http://web.archive.org/web/20240927115201/https://puri.sm/posts/the-librem-key-makes-tamper-detection-easy/) – a blog post that describes how the Librem Key integrates with Heads
 • [Librem Key firmware code](http://web.archive.org/web/20240927115201/https://github.com/Nitrokey/nitrokey-pro-firmware)
 • [Librem Key HOTP userspace code](http://web.archive.org/web/20240927115201/https://github.com/Nitrokey/nitrokey-hotp-verification)
 • [Supplemental Nitrokey Documentation](http://web.archive.org/web/20240927115201/https://www.nitrokey.com/documentation)
