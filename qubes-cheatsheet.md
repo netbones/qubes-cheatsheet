@@ -2,7 +2,7 @@
 
 *a summary of useful qubes commands*
 
-version: 3.2
+version: 3.3
 
 ### Mini Glossary
 
