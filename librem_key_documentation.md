@@ -519,11 +519,13 @@ Through the use of a simple script and udev rules, you can have your computer lo
 screen when you pull out your Librem Key. This integration requires two files: /etc/udev/
 rules.d/85-libremkey.rules and /usr/local/bin/gnome-screensaver-lock :
 
+**85-libremkey.rules**
+
 ```
 ACTION=="remove", ENV{PRODUCT}=="316d/4c4b/101" RUN+="/usr/local/bin/gnome-screensaver-lock"
 ```
 
-85-libremkey.rules
+**gnome-screensaver-lock**
 
 ````
 #!/bin/sh
@@ -533,7 +535,7 @@ if [ -n $user ]; then
 su $user -c "/usr/bin/dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org
 fi
 ```
-gnome-screensaver-lock
+
 
 You will need to trigger udev to reload upon installation so it picks up the new rule. You can
 do that this way:
