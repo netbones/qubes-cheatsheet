@@ -527,18 +527,18 @@ ACTION=="remove", ENV{PRODUCT}=="316d/4c4b/101" RUN+="/usr/local/bin/gnome-scree
 
 **gnome-screensaver-lock**
 
-````
+```
 #!/bin/sh
 user=`ps aux | egrep "gdm-(wayland|x)-session" | head -n 1 | awk '{print $1}'`
 
 if [ -n $user ]; then
 su $user -c "/usr/bin/dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org
 fi
+
 ```
-
-
 You will need to trigger udev to reload upon installation so it picks up the new rule. You can
 do that this way:
+
 ```
 systemctl restart udev
 ```
@@ -567,15 +567,15 @@ brainpoolP512r1
 • Safety and environmental compliance: FCC, CE, RoHS, WEEE
 
 ### Other Resources
-• Librem Key Product Page – where to go to order the Librem Key
-• Introducing the Librem Key – a blog post that provides an easy-to-understand overview of
+• [Librem Key Product Page](http://web.archive.org/web/20240927115201/https://puri.sm/products/librem-key) – where to go to order the Librem Key
+• [Introducing the Librem Key](http://web.archive.org/web/20240927115201/https://puri.sm/posts/introducing-the-librem-key/) – a blog post that provides an easy-to-understand overview of
 the Librem Key
-• The Librem Key Makes Tamper Detection Easy – a blog post that describes how the
+• [The Librem Key Makes Tamper Detection Easy](http://web.archive.org/web/20240927115201/https://puri.sm/posts/the-librem-key-makes-tamper-detection-easy/) – a blog post that describes how the
 Librem Key integrates with Heads
-• Librem Key firmware code
-• Librem Key HOTP userspace code
-• Supplemental Nitrokey Documentation
-• The Heads Project
+• [Librem Key firmware code](http://web.archive.org/web/20240927115201/https://github.com/Nitrokey/nitrokey-pro-firmware)
+• [Librem Key HOTP userspace code](http://web.archive.org/web/20240927115201/https://github.com/Nitrokey/nitrokey-hotp-verification)
+• [Supplemental Nitrokey Documentation](http://web.archive.org/web/20240927115201/https://www.nitrokey.com/documentation)
+• [The Heads Project](http://web.archive.org/web/20240927115201/https://github.com/osresearch/heads/)
 
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License 
