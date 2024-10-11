@@ -178,7 +178,8 @@ specifically for encryption, but you will need to generate additional subkeys fo
 authentication and it’s these three subkeys that will get stored and used from the Librem Key.
 To generate subkeys, you will need to edit the key you just created:
 
-```gpg --expert --edit-key
+```
+gpg --expert --edit-key
 
 ```
 
