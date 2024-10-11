@@ -8,7 +8,7 @@ version: 3.2
 - Xen - *Hypervisor*
 - VM - *Virtual Machine*
 - Qube - *Qubes OS specific alias for VM*
-- Dom0 - *Priviledged Xen VM (runs Qubes Manager)*
+- Dom0 - *Privileged Xen VM (runs Qubes Manager)*
 - DomU - *Normal Xen VM*
 - QWT - *Qubes Windows Tools*
 - PV - *Paravirtualized VM*
