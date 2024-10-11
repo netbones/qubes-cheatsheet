@@ -696,4 +696,4 @@ Use the following instructions: [Archlinux Template](https://www.qubes-os.org/do
 1. Launch Application Finder with Alt-F2 or F3, Qube Tools >> Qube Manager
 2. Select Qube >> Settings
 3. Check your advanced tab and devices tab for correct settings.
-4. Please read: [https://www.qubes-os.org/doc/troubleshooting/](https://www.qubes-os.org/doc/troubleshooting/)
+4. Please read: [https://www.qubes-os.org/doc/](https://www.qubes-os.org/doc/)

@@ -752,4 +752,4 @@ Additional Troubleshooting
     Manager
 2.  Select Qube >> Settings
 3.  Check your advanced tab and devices tab for correct settings.
-4.  Please read: https://www.qubes-os.org/doc/troubleshooting/
+4.  Please read: https://www.qubes-os.org/doc/
