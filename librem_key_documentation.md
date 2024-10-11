@@ -180,7 +180,6 @@ To generate subkeys, you will need to edit the key you just created:
 
 ```
 gpg --expert --edit-key
-
 ```
 
 This command will launch an interactive gpg> prompt where you can enter specific
