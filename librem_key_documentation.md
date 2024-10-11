@@ -236,7 +236,8 @@ Before you back everything up, you should generate a revocation certificate for 
 this backed up somewhere, you will be able to revoke your key in case it’s ever compromised
 or you lose it:
 
-```gpg --output revoke.asc --gen-revoke 
+```
+gpg --output revoke.asc --gen-revoke 
 
 ```
 
