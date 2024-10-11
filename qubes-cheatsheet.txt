@@ -746,8 +746,10 @@ Qubes OS Repositories
 
 -   http://yum.qubes-os.org - Browsable Fedora repositories
 
-Troubleshooting
+Additional Troubleshooting
 
-Launch Application Finder with Alt-F2 or F3, Qube Tools >> Qube Manager
-Select Qube >> Settings Check your advanced tab and devices tab for
-correct settings.
+1.  Launch Application Finder with Alt-F2 or F3, Qube Tools >> Qube
+    Manager
+2.  Select Qube >> Settings
+3.  Check your advanced tab and devices tab for correct settings.
+4.  Please read: https://www.qubes-os.org/doc/troubleshooting/
