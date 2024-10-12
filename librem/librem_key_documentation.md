@@ -557,7 +557,7 @@ brainpoolP512r1
 • Protocols: CSP, OpenPGP, S/MIME, X.509, PKCS#11
 • One-time password storage: 3x HOTP (RFC 4226), 15 x TOTP (RFC 6238)
 • Integrated password manager: 16 entries
-• Random number generator: 40 kbit/s true random number generator
+• Random number generator: 40 kbits true random number generator
 • Tamper-resistant smart card
 • Life expectancy: > 100,000 PIN entries
 • Storage time: > 20 years
