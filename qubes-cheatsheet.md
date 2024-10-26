@@ -103,6 +103,14 @@ usage:
 
 `qvm-prefs lab-win7 -s default_user joanna` - *sets the login user to `joanna`*
 
+
+\-\-\-
+ 
+ default:
+
+- `qubes-prefs default_qrexec_timeout` - *shows default timeout for qrexec*
+- `qubes-prefs default_qrexec_timeout 120` - *sets the default timeout for qrexec*
+
 #### qvm-run
 
 \- *Runs a specific command on a vm*
@@ -697,3 +705,8 @@ Use the following instructions: [Archlinux Template](https://www.qubes-os.org/do
 2. Select Qube >> Settings
 3. Check your advanced tab and devices tab for correct settings.
 4. Please read: [https://www.qubes-os.org/doc/](https://www.qubes-os.org/doc/)
+
+### Useful Links
+[Qubes Forum Docs](https://forum.qubes-os.org/docs)
+
+[Qubes Salt Beginners Guide](https://forum.qubes-os.org/t/qubes-salt-beginners-guide/20126)
