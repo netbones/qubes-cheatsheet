@@ -124,3 +124,6 @@ build/*.xdy
 # WinEdt
 build/*.bak
 build/*.sav
+
+.vscode
+settings.json
