@@ -26,10 +26,10 @@ Pandoc can generate different files from one [markdown](http://daringfireball.ne
 pandoc metadata.yaml qubes-cheatsheet.md -s -o qubes-cheatsheet.pdf
 
 # outputs the qubes cheat sheet as HTML (HTML5) file
-pandoc metadata.yaml qubes-cheatsheet.md -s -S -t html5 -o qubes-cheatsheet.html
+pandoc metadata.yaml qubes-cheatsheet.md -s -t html5 -o qubes-cheatsheet.html
 
 # outputs the qubes cheat sheet as plain text
-pandoc qubes-cheatsheet.md -s -S -t plain -o qubes-cheatsheet.txt
+pandoc qubes-cheatsheet.md -s -t plain -o qubes-cheatsheet.txt
 ```
 
 `qubes-cheatsheet.md` is the input file and `qubes-cheatsheet.xxx` the output file.
