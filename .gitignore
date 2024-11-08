@@ -126,6 +126,7 @@ build/*.bak
 build/*.sav
 
 .vscode
+.vscode/*
 settings.json
 .aider*
 .env
