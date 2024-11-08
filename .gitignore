@@ -127,3 +127,5 @@ build/*.sav
 
 .vscode
 settings.json
+.aider*
+.env

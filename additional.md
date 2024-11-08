@@ -1,7 +1,9 @@
 
-##Troubleshooting
+## Troubleshooting
 
-SEE: Qubes VM troubleshooting](https://www.qubes-os.org/doc/vm-troubleshooting/)
+SEE: **Qubes VM troubleshooting](https://www.qubes-os.org/doc/vm-troubleshooting/)**
+
+https://forum.qubes-os.org/t/qubes-salt-beginners-guide/20126
 
 ### [WARNING] top_file merging strategy is set to 'merge' and multiple top files were found. Merging order in not deterministic, it may be desirable to either set top_file_merging_strategy  to 'same' or use the 'env_order' configuration parameter to specify the merging order.
 
@@ -72,3 +74,6 @@ qubes.UpdatesProxy      *       @tag:whonix-updatevm    @anyvm                  
 ### Update all other templates through sys-firewall and deny everything else
 qubes.UpdatesProxy      *       @type:TemplateVM        @default                allow target=sys-firewall
 qubes.UpdatesProxy      *       @anyvm                  @anyvm
+
+#DNS
+https://forum.qubes-os.org/docs?topic=13749
