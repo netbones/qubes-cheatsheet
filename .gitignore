@@ -125,8 +125,11 @@ build/*.xdy
 build/*.bak
 build/*.sav
 
+#VScode
 .vscode
 .vscode/*
 settings.json
+
+#ENV
 .aider*
 .env
