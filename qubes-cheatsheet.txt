@@ -112,6 +112,15 @@ vms
 qvm-prefs lab-win7 -s default_user joanna - sets the login user to
 joanna
 
+---
+
+default:
+
+-   qubes-prefs default_qrexec_timeout - shows default timeout for
+    qrexec
+-   qubes-prefs default_qrexec_timeout 120 - sets the default timeout
+    for qrexec
+
 qvm-run
 
 - Runs a specific command on a vm
@@ -708,6 +717,21 @@ Updating, Searching & Installing Packages
 -   search for a package: pacman -Ss <package-or-word>
 -   updating template: pacman -Syyu
 
+Adding Additional Repos
+
+Currently the preferred method of adding additional repos & gpg keys is
+via the debian extrepo utility.
+
+    apt install extrepo
+
+run extrepo using the template update proxy:
+
+https_proxy=http://127.0.0.1:8082 extrepo enable <repo
+
+eg:
+
+https_proxy=http://127.0.0.1:8082 extrepo enable vscodium
+
 Removing Templates
 
 - Which were installed using the package manager
@@ -753,3 +777,9 @@ Additional Troubleshooting
 2.  Select Qube >> Settings
 3.  Check your advanced tab and devices tab for correct settings.
 4.  Please read: https://www.qubes-os.org/doc/
+
+Useful Links
+
+Qubes Forum Docs
+
+Qubes Salt Beginners Guide

@@ -61,6 +61,10 @@
     img {
       max-width: 100%;
     }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -245,6 +249,14 @@ the qrexec to installed</em></p>
 for windows hvm based vms</em></p>
 <p><code>qvm-prefs lab-win7 -s default_user joanna</code> - <em>sets the
 login user to <code>joanna</code></em></p>
+<p>---</p>
+<p>default:</p>
+<ul>
+<li><code>qubes-prefs default_qrexec_timeout</code> - <em>shows default
+timeout for qrexec</em></li>
+<li><code>qubes-prefs default_qrexec_timeout 120</code> - <em>sets the
+default timeout for qrexec</em></li>
+</ul>
 <h4 id="qvm-run">qvm-run</h4>
 <p>- <em>Runs a specific command on a vm</em></p>
 <p>usage:
@@ -724,6 +736,14 @@ Template</a></p>
 <code>pacman -Ss &lt;package-or-word&gt;</code></li>
 <li>updating template: <code>pacman -Syyu</code></li>
 </ul>
+<h4 id="adding-additional-repos">Adding Additional Repos</h4>
+<p>Currently the preferred method of adding additional repos &amp; gpg
+keys is via the debian extrepo utility.</p>
+<pre><code>apt install extrepo</code></pre>
+<p>run extrepo using the template update proxy:</p>
+<p><code>https_proxy=http://127.0.0.1:8082 extrepo enable &lt;repo</code></p>
+<p>eg:</p>
+<p><code>https_proxy=http://127.0.0.1:8082 extrepo enable vscodium</code></p>
 <h4 id="removing-templates">Removing Templates</h4>
 <p>- <em>Which were installed using the package manager</em></p>
 <p><strong><em>Remove installed template</em></strong></p>
@@ -771,5 +791,10 @@ Qube Manager</li>
 <li>Please read: <a
 href="https://www.qubes-os.org/doc/">https://www.qubes-os.org/doc/</a></li>
 </ol>
+<h3 id="useful-links">Useful Links</h3>
+<p><a href="https://forum.qubes-os.org/docs">Qubes Forum Docs</a></p>
+<p><a
+href="https://forum.qubes-os.org/t/qubes-salt-beginners-guide/20126">Qubes
+Salt Beginners Guide</a></p>
 </body>
 </html>
