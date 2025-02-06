@@ -662,6 +662,20 @@ Use the following instructions: [Archlinux Template](https://www.qubes-os.org/do
 - search for a package: `pacman -Ss <package-or-word>`
 - updating template: `pacman -Syyu`
 
+#### Adding Additional Repos
+Currently the preferred method of adding additional repos & gpg keys is via the debian extrepo utility.
+
+```
+apt install extrepo
+```
+run extrepo using the template update proxy:
+
+```https_proxy=http://127.0.0.1:8082 extrepo enable <repo```
+
+eg:
+
+```https_proxy=http://127.0.0.1:8082 extrepo enable vscodium```
+
 #### Removing Templates
 
 \- *Which were installed using the package manager*
