@@ -6,11 +6,11 @@ This cheat sheet contains commands and examples for [Qubes OS](https://www.qubes
 
 - **Markdown (Text): [qubes-cheatsheet.md](https://github.com/ubuntupunk/qubes-cheatsheet/blob/master/qubes-cheatsheet.md)**
 
-- **PDF: [qubes-cheatsheet.pdf](https://github.com/ubuntupunk/qubes-cheatsheet/raw/master/qubes-cheatsheet.pdf)**
+- **PDF: [qubes-cheatsheet.pdf](https://github.com/ubuntupunk/qubes-cheatsheet/blob/master/qubes-cheatsheet.pdf)**
 
 - **HTML: [qubes-cheatsheet.html](https://htmlpreview.github.io/?https://github.com/ubuntupunk/qubes-cheatsheet/blob/master/qubes-cheatsheet.html)**
 
-- **Text: [qubes-cheatsheet.txt](https://github.com/ubuntupunk/qubes-cheatsheet/raw/master/qubes-cheatsheet.txt)**
+- **Text: [qubes-cheatsheet.txt](https://github.com/ubuntupunk/qubes-cheatsheet/blob/master/qubes-cheatsheet.txt)**
 
 *The files are generated with the help of [`generate.sh`](https://github.com/ubuntupunk/qubes-cheatsheet/blob/master/generate.sh)*
 
